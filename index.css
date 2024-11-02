@@ -1,0 +1,206 @@
+@keyframes img-1 {
+   from  {background-image: url("Hamburg-3.jpg");}
+   to  {background-image: url("Hamburg-1.jpg");}
+}
+
+body {
+    margin: 0;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 1.875em;
+    text-align: center;
+    color: #0B2545;
+    padding: 50px 0 25px 0; 
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+p {
+    font-size: 0.875em;
+}
+
+nav {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    background-color: #0B2545;
+    color: #EEF4ED;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #EEF4ED;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Hamburg-3.jpg");
+    animation-name: img-1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 5s;
+    background-size: cover;
+    padding: 200px;
+}
+
+#headline {
+    background-color: #EEF4ED;
+    color: #0B2545;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+#intro {
+    background-color: #0B2545;
+    color: #EEF4ED;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+
+}
+
+.sights {
+    background-color: #EEF4ED;
+    color:#0B2545;
+    margin-top: -25px;
+    text-align: center;
+}
+
+.sights-flex {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 50px 10px;
+}
+
+.width {
+    padding: 10px 30px;
+    width: 300px;
+
+}
+
+.sights-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #0B2545;
+}
+
+.guide {
+    display: flex;
+    justify-content: center;
+    background-image: url("hamburg.webp");
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+}
+
+
+.guide-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #EEF4ED;
+    padding: 20px 30px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #0B2545;
+}
+
+#pic-img {
+    height: 250px;
+    width: 180px;
+    box-shadow: 0 0 10px #0B2545;
+}
+
+.restaurant {
+    background-color: #EEF4ED;
+    margin-top: -25px;
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+.res-img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #0B2545;
+}
+
+.res-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0 0 0;
+}
+
+.res-text {
+    width: 300px;
+}
+
+span {
+    border-bottom: 5px solid #0B2545;
+}
+
+footer {
+    background-color: #0B2545;
+    color: #EEF4ED;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.res-flex .res-1-1 {
+    display: none;
+}
+
+.res-flex:hover .res-1-1 {
+    display: inline;
+}
+
+.res-flex:hover .res-1 {
+    display: none;
+}
+
+.res-flex .res-2-2 {
+    display: none;
+}
+
+.res-flex:hover .res-2-2 {
+    display: inline;
+}
+
+.res-flex:hover .res-2 {
+    display: none;
+}
+
+.res-flex .res-3-3 {
+    display: none;
+}
+
+.res-flex:hover .res-3-3 {
+    display: inline;
+}
+
+.res-flex:hover .res-3 {
+    display: none;
+}
